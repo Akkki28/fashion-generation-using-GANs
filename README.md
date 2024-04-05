@@ -29,4 +29,7 @@ This model aims to generate new fashion articles by generating instances of the 
 
 -> Using more layers in the neural network(Which can cause vanishing/exploding gardient problem)
 
--> Training more epochs
+-> Training more epochs(Might not necesarrily lead to improvement)
+
+# Further reading
+[Original research paper](https://arxiv.org/abs/1406.2661)
