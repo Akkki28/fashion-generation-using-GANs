@@ -25,6 +25,7 @@ This minimax game is the reason why the loss curve of GANs are typically zigzag 
 This model aims to generate new fashion articles by generating instances of the fashion MNIST dataset. I have used a simple vanilla neural network to implement both the Genrator and discrimintor. 20000 epochs were trained for the final model.
 
 The HDF5 files are provided in the repository for further generation of images
+
 ![OUTPUT](https://www.innodeed.com/wp-content/uploads/2022/09/code-output4-328x231.png)
 
 # Future scope
