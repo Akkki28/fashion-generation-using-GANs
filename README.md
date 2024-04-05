@@ -16,8 +16,6 @@ GAN architecture consistes of two neural networks,The discriminator and the gene
 An artificial neural network called a discriminator model is used in GANs to differentiate between generated and actual input.The primary goal of the discriminator is to improve the quality of the generated data by providing feedback to the generator.During training, the discriminator aims to become proficient at distinguishing between real and fake data.
 
 ## Generator
-![Generator](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTioeKgapwP7_XbExb0gBdgCi7bLbEVxSfZSLuXFsQ3EeAL--6iiy_Zc3hMvyezFwrVcss&usqp=CAU)
-
 The genrator is a neural network that takes in random noise and tries to produce samples that are indistinguishable from real data.Training a GAN involves optimizing both the generator and the discriminator simultaneously in a minimax game framework. As the generator improves at generating realistic samples, the discriminator also gets better at distinguishing real from fake samples. This dynamic interplay between the two components leads to the generator learning to produce increasingly convincing synthetic data.
 This minimax game is the reason why the loss curve of GANs are typically zigzag instead of the conventional decreasing curve.
 
