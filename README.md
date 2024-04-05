@@ -11,7 +11,7 @@ here is an example of faces that are not in fact real people but rather genrated
 GAN architecture consistes of two neural networks,The discriminator and the generator.
 
 ## Discriminator
-![Discrminator](https://www.researchgate.net/publication/339832261/figure/fig5/AS:867699496345602@1583887089690/The-PatchGAN-structure-in-the-discriminator-architecture.ppm)
+![Discrminator](https://miro.medium.com/v2/resize:fit:1400/1*ad8tUoJx7U3tfMDRcs0MGg.jpeg)
 
 An artificial neural network called a discriminator model is used in GANs to differentiate between generated and actual input.The primary goal of the discriminator is to improve the quality of the generated data by providing feedback to the generator.During training, the discriminator aims to become proficient at distinguishing between real and fake data.
 
