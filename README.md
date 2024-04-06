@@ -17,7 +17,7 @@ An artificial neural network called a discriminator model is used in GANs to dif
 
 ## Generator
 The generator is a neural network that takes in random noise and tries to produce samples that are indistinguishable from real data.Training a GAN involves optimizing both the generator and the discriminator simultaneously in a minimax game framework. As the generator improves at generating realistic samples, the discriminator also gets better at distinguishing real from fake samples. This dynamic interplay between the two components leads to the generator learning to produce increasingly convincing synthetic data.
-This minimax game is the reason why the loss curve of GANs are typically zigzag instead of the conventional decreasing curve.
+This minimax game is the reason why the loss curve of GANs is typically zigzag instead of the conventional decreasing curve.
 
 # This Model
 This model aims to generate new fashion articles by generating instances of the fashion MNIST dataset. I have used a simple vanilla neural network to implement both the Genrator and discrimintor. 20000 epochs were trained for the final model.
