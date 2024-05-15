@@ -20,7 +20,7 @@ This minimax game is the reason why the loss curve of GANs is typically zigzag i
 
 # This Model
 ![GAN2](https://s3.amazonaws.com/kajabi-storefronts-production/blogs/12746/images/iAOOdduQyCICwiv31aHa_dcgan.png)
-This model aims to generate new fashion articles by generating instances of the fashion MNIST dataset. 25 epochs were trained for the final model.
+This model aims to generate new fashion articles by generating instances of the fashion MNIST dataset.Both a simple vanilla GAN as well DCGAN have been used to generate the instances with varying outputs
 The HDF5 files are provided in the repository for further generation of images
 
 # Future scope
