@@ -8,15 +8,16 @@ Here is an example of faces that are not in fact real people but rather genrated
 
 # Architecture
 ![GAN](https://i0.wp.com/semiengineering.com/wp-content/uploads/nn3.png?fit=756%2C558&ssl=1)
+
 GAN architecture consistes of two neural networks,The discriminator and the generator.
 
 ## Discriminator
-![Discrminator](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Fgan-ways-to-improve-gan-performance-acf37f9f59b&psig=AOvVaw1Ge6J4vKpHXBq8zpwsErlO&ust=1715849764495000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLj9oNCkj4YDFQAAAAAdAAAAABAE)
+![Discrminator](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fgenerative-adversarial-networks-gans-an-introduction%2F&psig=AOvVaw1Ge6J4vKpHXBq8zpwsErlO&ust=1715849764495000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLj9oNCkj4YDFQAAAAAdAAAAABAJ)
 
 An artificial neural network called a discriminator model is used in GANs to differentiate between generated and actual input.The primary goal of the discriminator is to improve the quality of the generated data by providing feedback to the generator.During training, the discriminator aims to become proficient at distinguishing between real and fake data.
 
 ## Generator
-![Generator](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Fdcgans-deep-convolutional-generative-adversarial-networks-c7f392c2c8f8&psig=AOvVaw2mP2Fj-Ogn1EcBcCKq6kZA&ust=1715849706976000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOip4bSkj4YDFQAAAAAdAAAAABAE)
+![Generator](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fgenerative-adversarial-networks-gans-an-introduction%2F&psig=AOvVaw2mP2Fj-Ogn1EcBcCKq6kZA&ust=1715849706976000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOip4bSkj4YDFQAAAAAdAAAAABAi)
 The generator is a neural network that takes in random noise and tries to produce samples that are indistinguishable from real data.Training a GAN involves optimizing both the generator and the discriminator simultaneously in a minimax game framework. As the generator improves at generating realistic samples, the discriminator also gets better at distinguishing real from fake samples. This dynamic interplay between the two components leads to the generator learning to produce increasingly convincing synthetic data.
 This minimax game is the reason why the loss curve of GANs is typically zigzag instead of the conventional decreasing curve.
 
