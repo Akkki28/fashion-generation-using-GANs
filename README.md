@@ -20,16 +20,12 @@ This minimax game is the reason why the loss curve of GANs is typically zigzag i
 
 # This Model
 ![GAN2](https://s3.amazonaws.com/kajabi-storefronts-production/blogs/12746/images/iAOOdduQyCICwiv31aHa_dcgan.png)
-This model aims to generate new fashion articles by generating instances of the fashion MNIST dataset. I have used a simple vanilla neural network to implement both the Genrator and discrimintor. 20000 epochs were trained for the final model.
-
+This model aims to generate new fashion articles by generating instances of the fashion MNIST dataset. 25 epochs were trained for the final model.
 The HDF5 files are provided in the repository for further generation of images
-
-![OUTPUT](https://www.innodeed.com/wp-content/uploads/2022/09/code-output4-328x231.png)
 
 # Future scope
 -> Using more layers in the neural network(Which can cause vanishing/exploding gardient problem)
-
 -> Training more epochs(Might not necesarrily lead to improvement)
-
 # Further reading
+
 [Original research paper](https://arxiv.org/abs/1406.2661)
