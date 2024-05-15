@@ -25,7 +25,9 @@ The HDF5 files are provided in the repository for further generation of images
 
 # Future scope
 -> Using more layers in the neural network(Which can cause vanishing/exploding gardient problem)
+
 -> Training more epochs(Might not necesarrily lead to improvement)
+
 # Further reading
 
 [Original research paper](https://arxiv.org/abs/1406.2661)
